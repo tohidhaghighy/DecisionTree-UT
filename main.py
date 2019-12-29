@@ -24,9 +24,9 @@ categorical_features = data[['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'c
 
 # newnode=MyDecisionTreeClassifier()
 # newnode.fit(categorical_features, data.num)
-# b = Digraph('T', filename='Tohid')
-# newnode.plot(b)
-# b.view()
+b = Digraph('T', filename='Tohid')
+newnode.plot(b)
+b.view()
 
 #tree.cross_validate(data,5)
 
